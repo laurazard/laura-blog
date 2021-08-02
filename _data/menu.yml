@@ -1,0 +1,35 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: info
+    entries:
+      - title: general software engineer with too wide an array of interests
+      - title: github
+        url: https://github.com/laurazard
+      - title: linkedin
+        url: https://www.linkedin.com/in/laura-fbrehm/
+      - title: CV
+        url: /assets/laura-brehm-cv.pdf
+
+  - title: all posts
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
+
+  # - title: posts by category
+  #   post_list:
+  #     category: example2
+  #     show_more: true
+  #     show_more_text: See more posts...
+  #     show_more_url: example2-archive.html
+
+  - title: rss
+    url: feed.xml
+  
+  - title: extras
+    entries:
+      - title: CovidPass - iOS wallet pass generator for EU covid certificates // fork
+        url: https://covidpass.laurabrehm.io
